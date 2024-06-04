@@ -1,0 +1,103 @@
+/* slider */
+.product-page-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.product-page-right-side {
+    width: 100%;
+}
+.product-page-left-side {
+    width: 100%;
+
+}
+.product-img-container {
+    width: auto;
+    margin: auto;
+}
+.product-gallery-card {
+    max-width: 100%;
+}
+.product-gallery-card img {
+    width: 100%;
+}
+.product-price-container {
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.desktop-customization {
+    display: none;
+}
+.customization-container [type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+} 
+/* IMAGE STYLES */
+.customization-container [type=radio] + img {
+    cursor: pointer;
+    width: 100px;
+}
+/* CHECKED STYLES */
+.customization-container [type=radio]:checked + img {
+    outline: 2px solid rgb(255, 167, 0);
+}
+/*  Description  */
+.description-dropdown {
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+}
+.description-dropdown .dropdown-header {
+    line-height: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+/* cta container */
+.product-page-cta-container {
+    width: 95%;
+    margin: auto;
+    box-sizing: border-box;
+    grid-template-columns: repeat(1, 1fr);
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+a.checkout-button, a.checkout-button-outlined  {
+    font-size: 1rem;
+    font-weight: 600;
+    border: 2px solid #B76E79;
+    padding: 4px 26px;
+    margin: 0.65rem 0;
+    text-align: center;
+    display: block;
+    border-radius: 35px;
+}
+a.checkout-button {
+    background:  #B76E79;
+    color: #fff;
+}
+a.checkout-button-outlined {
+    background: rgb(255, 255, 255);
+    color: #B76E79;
+}
+/* Media Query */
+@media (min-width: 999px) {
+    .page-navigation-bar {
+        display: none;
+    }
+    .product-page-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .product-page-right-side {
+        width: 35%;
+    }
+    .product-page-left-side {
+        width: 65%;
+    
+    }
+}

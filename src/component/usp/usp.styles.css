@@ -1,0 +1,24 @@
+.usp-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.usp-container img.usp-svg {
+    width: 100px;
+}
+.usp-container h4 {
+    font-weight: 400;
+    margin: 0;
+    font-size: 24px;
+}
+/* Media Query */
+@media (min-width: 999px) {
+    .usp-container {
+        flex-direction: row;
+    }
+}
