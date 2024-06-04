@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import React, { Component } from 'react'
 import Emptycart from '../../assets/shopping-cart.gif';
-import CartProductImg from '../../assets/products/10_0_moon-knight-7291fb5c55e10d9ed27a03da959a0d61.jpg'
+import CartProductImg from '../../assets/products/2.jpg';
 import { Link } from 'react-router-dom';
 import './account.styled.css'
 import { useState } from 'react';

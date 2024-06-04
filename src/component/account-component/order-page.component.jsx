@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Productimg from '../../assets/products/11_0_demon-slayer---kimetsu-no-yaiba-be0079c9c0054fcc952384138fc686fd.jpg';
+import Productimg from '../../assets/products/3.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Orderscard = () => {
